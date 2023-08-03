@@ -9,9 +9,8 @@ const propsplit = <T extends Record<any, any>, K extends [readonly (keyof T)[], 
   props: T,
   ...keys: K
 ): SplitProps<T, K> => {
-  const otherObject: Record<string, any> = {};
-  const objects: Record<string, any>[] = keys.map(() => ({}));
-
+  let otherObject: Record<string, any> = {};
+  let objects: Record<string, any>[] = keys.map(() => ({}));
   let prop: Extract<keyof T, string>;
   let blocked: boolean;
   let objectIndex: number;
@@ -23,7 +22,6 @@ const propsplit = <T extends Record<any, any>, K extends [readonly (keyof T)[], 
       if (key.includes(prop)) (blocked = true), (objects[objectIndex][prop] = value);
       ++objectIndex;
     }
-
     if (!blocked) otherObject[prop] = value;
   }
 
