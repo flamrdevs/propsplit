@@ -29,7 +29,7 @@
   </span>
 </h1>
 
-split props
+Split props utility
 
 <h2 id="usage">
   <picture>
