@@ -1,20 +1,20 @@
 <p align="center">
   <a title="license" href="https://github.com/flamrdevs/propsplit/blob/main/LICENSE">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/l?t=dark&n=propsplit">
-      <img alt="license" src="https://none.deno.dev/npm/l?t=light&n=propsplit" hspace="1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/l/propsplit?t=dark">
+      <img alt="license" src="https://none.deno.dev/npm/l/propsplit?t=light" hspace="1">
     </picture>
   </a>
   <a title="version" href="https://www.npmjs.com/package/propsplit">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/v?t=dark&n=propsplit">
-      <img alt="version" src="https://none.deno.dev/npm/v?t=light&n=propsplit" hspace="1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/npm/v/propsplit?t=dark">
+      <img alt="version" src="https://none.deno.dev/npm/v/propsplit?t=light" hspace="1">
     </picture>
   </a>
   <a title="size" href="https://bundlejs.com/?q=propsplit">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/bundlejs/mz?t=dark&n=propsplit">
-      <img alt="size" src="https://none.deno.dev/bundlejs/mz?t=light&n=propsplit" hspace="1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://none.deno.dev/bundlejs/mz/propsplit?t=dark">
+      <img alt="size" src="https://none.deno.dev/bundlejs/mz/propsplit?t=light" hspace="1">
     </picture>
   </a>
 </p>

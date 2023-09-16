@@ -5,6 +5,15 @@ type SplitProps<T, K extends (readonly (keyof T)[])[]> = [
   Omit<T, K[number][number]>
 ];
 
+/**
+ *
+ * @param props props
+ * @param keys keys
+ * @returns splitted props
+ *
+ * @example
+ * const [foo, bar, baz, rest] = propsplit(props, ["foo"], ["bar"], ["baz"]);
+ */
 const propsplit = <T extends Record<any, any>, K extends [readonly (keyof T)[], ...(readonly (keyof T)[])[]]>(
   props: T,
   ...keys: K
